@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="head"><center>VIT Event Registration</center></h1>
+    <img src="C:\Users\tagal\Downloads/vit.jpg" alt="">
+  <div> <form action="action.html" target="_blank" name="form" onsubmit="return validate()">
+        <label for="name" class="label">Username</label><p class="col">:</p><input type="text" name="name2" id="name" class="text"><b><p id="p1"></p></b><br>
+        <label for="reg" class="label">Reg.no</label><p class="col c1">:</p><input type="text" name="reg1" id="reg" class="text"><b><p id="p2"></p></b><br>
+        <label for="phn" class="label">Mobile Number</label><p class="col c2">:</p><input type="text" name="phn1" id="phn" class="text"><b><p id="p3"></p></b><br>
+        <label for="mail" class="label">Email</label><p class="col c3">:</p><input type="text" name="mail1" id="mail" class="text"><b><p id="p4"></p></b><br>
+        <label for="code" class="label">ZipCode</label><p class="col c4">:</p><input type="text" name="zip" id="code" class="text"><b><p id="p5"></p></b><br>
+        <label for="pass" class="label">Enter Password</label><p class="col c5">:</p><input type="password" name="passs" id="pass" class="text"><b><p id="p6"></p></b><br>
+        <ul>
+            <li>Password should be atleast 10 Characters</li>
+            <li>5 or more unique Characters</li>
+            <li>Atleast each of uppercase,lowercase and a special character</li>
+        </ul>
+        <label for="pass1" class="label">Confirm Password</label><p class="col c6">:</p><input type="password" name="passs1" id="pass1" class="text"><b><p id="p7"></p></b><br>
+        <label for="sel" class="label">Events</label><p class="col c7">:</p>
+        <select name="sel" id="sel1" >
+            <option value="none" name="non" selected></option>
+            <option value="dance">Dancing</option>
+            <option value="sing">Singing</option>
+            <option value="technical">Technical Quiz</option>
+            <option value="essay">Essay Writing</option>
+        </select>
+        <b><p id="p8"></p></b>
+        <input type="checkbox" name="che" id="check"><label for="check" class="lab">I am here by Agreed to all the</label>
+        <a href="" class="an">Terms and Conditions</a><br><br><b><p id="p9"></p></b><br>
+        <input type="submit" value="Register" class="bt">
+    </form> </div>
+    <script src="valid.js"></script>
+</body>
+</html>
